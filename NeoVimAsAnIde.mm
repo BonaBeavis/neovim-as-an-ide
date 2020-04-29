@@ -15,7 +15,7 @@
 </richcontent>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#000000ff"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#000000ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -81,7 +81,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="87" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="89" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="under cursor" POSITION="right" ID="ID_1159703122" CREATED="1570713115844" MODIFIED="1570882987962">
 <edge COLOR="#808080"/>
 <node ID="ID_1194756297" CREATED="1570724934603" MODIFIED="1570727857041"><richcontent TYPE="NODE">
@@ -522,7 +522,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1074,6 +1073,157 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node POSITION="right" ID="ID_1598991275" CREATED="1586521326048" MODIFIED="1586522193216"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      de<font color="#ff0000">b</font>ugging
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#808080"/>
+<node ID="ID_1124271789" CREATED="1586521869333" MODIFIED="1586521891897"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">b</font>reakpoint current line
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1610164870" CREATED="1586522032389" MODIFIED="1586522052376"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">b</font>reakpoint for <font color="#ff0000">f</font>unction
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1493282056" CREATED="1586522254032" MODIFIED="1586522288637"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">s</font>top
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1800469768" CREATED="1586522264265" MODIFIED="1586522296249"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">r</font>estart
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1881745027" CREATED="1586522269068" MODIFIED="1586522300566"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">p</font>ause
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_850993471" CREATED="1586523486417" MODIFIED="1586523556423"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">F4</font>&#160;step out
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_628147817" CREATED="1586523507554" MODIFIED="1586523561230"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">F5</font>&#160;step over
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1455055355" CREATED="1586523524317" MODIFIED="1586523566035"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">F6</font>&#160;step into
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1453467626" CREATED="1586523544835" MODIFIED="1586523573456"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">F7 </font>continue
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
